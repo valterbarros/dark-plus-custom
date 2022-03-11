@@ -1,0 +1,21 @@
+{
+    "name": "dark-plus-custom",
+    "displayName": "Dark Plus Custom",
+    "description": "A color theme for vscode using some bold and cool colors",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Plus",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark Plus-color-theme.json"
+            }
+        ]
+    }
+}
